@@ -16,7 +16,7 @@ Heart Rate Variability (HRV) involves metrics highly associated with parasympath
 ![System Diagram](Images/Circuit.png)
 
 ### Team
-![Team](Images/Team.jpg)
+![Team](Images/Team2.jpg)
 
 
 
