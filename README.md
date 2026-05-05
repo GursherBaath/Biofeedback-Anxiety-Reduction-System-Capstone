@@ -9,6 +9,12 @@ Heart Rate Variability (HRV) involves metrics highly associated with parasympath
 ### CalmCoach App
 <img src=https://github.com/user-attachments/assets/99561f57-6fff-400f-8346-996761d89b92  height="600">
 
+### Assembly
+![System Diagram](Images/Assembly.png)
+
+### Circuit
+![System Diagram](Images/Circuit.png)
+
 ### Team
 ![Team](Images/team_photo.jpg)
 
