@@ -1,5 +1,7 @@
 # Biofeedback-Anxiety-Reduction-System-Capstone
-Heart Rate Variability (HRV) involves metrics highly associated with parasympathetic nervous system activation, or in other words, calm. During inhalation, heart rate increases and during exhalation, heart rate decreases. This phenomenon is known as Respiratory Sinus Arrythmia. Plotting heart rate over time displays a wave profile. Increasing the amplitude of this wave, is increasing HRV and thus calm. _CalmCoach_ determines the amplitude of this wave profile and provides real-time feedback enabling the user to adjust breathing to maximize this amplitude. The user simply clips the device to their finger, and _CalmCoach_ does the rest.
+![System Diagram](Images/Logo.png)
+
+_CalmCoach_ provides a clinically validated method of promoting calm, known as Heart Rate Variability Biofeedback. Heart rate rises and falls with inhalation and exhalation. Increasing this heart rate variability is associated with parasympathetic nervous system activation. _CalmCoach_ provides real-time feedback enabling the user to adjust breathing to maximize their variability and induce calm. The user simply clips the device to their finger, and _CalmCoach_ does the rest.
 
 ### CalmCoach App
 <img src="./Images/RSA_Amplitude2.gif" height="600"> <img src="./Images/Navigation2.gif" height="600">
