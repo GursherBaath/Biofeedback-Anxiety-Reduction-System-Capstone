@@ -1,7 +1,7 @@
 # Biofeedback-Anxiety-Reduction-System-Capstone
 ![System Diagram](Images/Logo.png)
 
-_CalmCoach_ provides a clinically validated method of promoting calm, known as Heart Rate Variability Biofeedback. Heart rate rises and falls with inhalation and exhalation. Increasing this heart rate variability is associated with parasympathetic nervous system activation. _CalmCoach_ provides real-time feedback enabling the user to adjust breathing to maximize their variability and induce calm. The user simply clips the device to their finger, and _CalmCoach_ does the rest.
+_CalmCoach_ provides a clinically validated method of promoting calm, known as Heart Rate Variability Biofeedback. Heart rate rises and falls with inhalation and exhalation. Increasing the amplitude of this rise and fall, activates the parasympathetic nervous system. _CalmCoach_ provides real-time feedback to adjust the user's breathing pattern and maximize their amplitude to induce calm. Simply clip the device to your finger, and _CalmCoach_ does the rest.
 
 ### CalmCoach App
 <img src="./Images/RSA_Amplitude2.gif" height="600"> <img src="./Images/Navigation2.gif" height="600">
