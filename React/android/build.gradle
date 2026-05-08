@@ -1,0 +1,35 @@
+buildscript {
+    ext {
+        buildToolsVersion = "36.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "2.1.20"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+
+// Move CMake staging dirs (.cxx) to a short path to avoid the Windows 260-char limit.
+// CMake mirrors absolute source paths inside the staging dir, so if the staging dir
+// itself is deep, the combined path overflows. Only buildStagingDirectory needs to
+// move — touching buildDir causes codegen duplicate-class errors.
+gradle.afterProject { proj ->
+    if (proj == rootProject) return
+    if (proj.hasProperty('android')) {
+        try {
+            proj.android.externalNativeBuild.cmake.buildStagingDirectory =
+                file("C:/tmp/cxx/${proj.name}")
+        } catch (ignored) {}
+    }
+}
