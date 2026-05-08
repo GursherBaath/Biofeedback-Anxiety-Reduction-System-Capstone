@@ -1,0 +1,227 @@
+
+============================================================
+PPG NOISE TESTING HARNESS
+============================================================
+
+Select a PPG data file:
+  1. ppg_data.txt (default)
+  2. ppg_dataset/connors_heart.txt
+  3. ppg_dataset/motion_and_pressure_noise.txt
+  4. ppg_dataset/post_exercise_connor.txt
+  5. ppg_dataset/ppg_data.txt
+  6. ppg_dataset/semi_normal_run.txt
+Enter number [default 6]:   File contains ~12000 samples (~120s at 100 Hz)
+  3. ppg_dataset/gurshers_heart.txt
+  4. ppg_dataset/movement_noise.txt
+  5. ppg_dataset/ppg_data.txt
+  6. ppg_dataset/semi_normal_run.txt
+Enter number [default 6]:   File contains ~10000 samples (~100s at 100 Hz)
+
+Duration in seconds to process [120]: 
+Realtime playback at 100 Hz? (y/n) [n for fastest]: 
+============================================================
+CONFIGURATION
+============================================================
+File:     c:\Users\erica\Documents\Development\Capstone\Python\python_code\ppg_dataset\post_exercise_connor.txt
+Duration: 120s (2.0 min)
+Mode:     fast (no sleep)
+============================================================
+
+Start? (y/n) [y]: 
+============================================================
+Loading file: c:\Users\erica\Documents\Development\Capstone\Python\python_code\ppg_dataset\post_exercise_connor.txt
+File loaded. Replaying in as fast as possible mode.
+Duration cap: 120 seconds
+HRV calculated every 10 s using 30-second windows
+============================================================
+
+Samples: 100 | Time: 1.0s
+Samples: 200 | Time: 2.0s
+Samples: 300 | Time: 3.0s
+Samples: 400 | Time: 4.0s
+Samples: 500 | Time: 5.0s
+Samples: 600 | Time: 6.0s
+Samples: 700 | Time: 7.0s
+Samples: 800 | Time: 8.0s
+Samples: 900 | Time: 9.0s
+Samples: 1000 | Time: 10.0s
+Samples: 1100 | Time: 11.0s
+Samples: 1200 | Time: 12.0s
+Samples: 1300 | Time: 13.0s
+Samples: 1400 | Time: 14.0s
+Samples: 1500 | Time: 15.0s
+Samples: 1600 | Time: 16.0s
+Samples: 1700 | Time: 17.0s
+Samples: 1800 | Time: 18.0s
+Samples: 1900 | Time: 19.0s
+Samples: 2000 | Time: 20.0s
+Samples: 2100 | Time: 21.0s
+Samples: 2200 | Time: 22.0s
+Samples: 2300 | Time: 23.0s
+Samples: 2400 | Time: 24.0s
+Samples: 2500 | Time: 25.0s
+Samples: 2600 | Time: 26.0s
+Samples: 2700 | Time: 27.0s
+Samples: 2800 | Time: 28.0s
+Samples: 2900 | Time: 29.0s
+Samples: 3000 | Time: 30.0s
+Samples: 3100 | Time: 31.0s
+Samples: 3200 | Time: 32.0s
+Samples: 3300 | Time: 33.0s
+Samples: 3400 | Time: 34.0s
+Samples: 3500 | Time: 35.0s
+Samples: 3600 | Time: 36.0s
+Samples: 3700 | Time: 37.0s
+Samples: 3800 | Time: 38.0s
+Samples: 3900 | Time: 39.0s
+Samples: 4000 | Time: 40.0s
+Samples: 4100 | Time: 41.0s
+Samples: 4200 | Time: 42.0s
+Samples: 4300 | Time: 43.0s
+Samples: 4400 | Time: 44.0s
+Samples: 4500 | Time: 45.0s
+Samples: 4600 | Time: 46.0s
+Samples: 4700 | Time: 47.0s
+Samples: 4800 | Time: 48.0s
+Samples: 4900 | Time: 49.0s
+Samples: 5000 | Time: 50.0s
+Samples: 5100 | Time: 51.0s
+Samples: 5200 | Time: 52.0s
+Samples: 5300 | Time: 53.0s
+Samples: 5400 | Time: 54.0s
+Samples: 5500 | Time: 55.0s
+Samples: 5600 | Time: 56.0s
+Samples: 5700 | Time: 57.0s
+Samples: 5800 | Time: 58.0s
+Samples: 5900 | Time: 59.0s
+Samples: 6000 | Time: 60.0s
+Samples: 6100 | Time: 61.0s
+Samples: 6200 | Time: 62.0s
+Samples: 6300 | Time: 63.0s
+Samples: 6400 | Time: 64.0s
+Samples: 6500 | Time: 65.0s
+Samples: 6600 | Time: 66.0s
+Samples: 6700 | Time: 67.0s
+Samples: 6800 | Time: 68.0s
+Samples: 6900 | Time: 69.0s
+Samples: 7000 | Time: 70.0s
+Samples: 7100 | Time: 71.0s
+Samples: 7200 | Time: 72.0s
+Samples: 7300 | Time: 73.0s
+Samples: 7400 | Time: 74.0s
+Samples: 7500 | Time: 75.0s
+Samples: 7600 | Time: 76.0s
+Samples: 7700 | Time: 77.0s
+Samples: 7800 | Time: 78.0s
+Samples: 7900 | Time: 79.0s
+Samples: 8000 | Time: 80.0s
+Samples: 8100 | Time: 81.0s
+Samples: 8200 | Time: 82.0s
+Samples: 8300 | Time: 83.0s
+Samples: 8400 | Time: 84.0s
+Samples: 8500 | Time: 85.0s
+Samples: 8600 | Time: 86.0s
+Samples: 8700 | Time: 87.0s
+Samples: 8800 | Time: 88.0s
+Samples: 8900 | Time: 89.0s
+Samples: 9000 | Time: 90.0s
+Samples: 9100 | Time: 91.0s
+Samples: 9200 | Time: 92.0s
+Samples: 9300 | Time: 93.0s
+Samples: 9400 | Time: 94.0s
+Samples: 9500 | Time: 95.0s
+Samples: 9600 | Time: 96.0s
+Samples: 9700 | Time: 97.0s
+Samples: 9800 | Time: 98.0s
+Samples: 9900 | Time: 99.0s
+Samples: 10000 | Time: 100.0s
+Samples: 10100 | Time: 101.0s
+Samples: 10200 | Time: 102.0s
+Samples: 10300 | Time: 103.0s
+Samples: 10400 | Time: 104.0s
+Samples: 10500 | Time: 105.0s
+Samples: 10600 | Time: 106.0s
+Samples: 10700 | Time: 107.0s
+Samples: 10800 | Time: 108.0s
+Samples: 10900 | Time: 109.0s
+Samples: 11000 | Time: 110.0s
+Samples: 11100 | Time: 111.0s
+Samples: 11200 | Time: 112.0s
+Samples: 11300 | Time: 113.0s
+Samples: 11400 | Time: 114.0s
+Samples: 11500 | Time: 115.0s
+Samples: 11600 | Time: 116.0s
+Samples: 11700 | Time: 117.0s
+Samples: 11800 | Time: 118.0s
+Samples: 11900 | Time: 119.0s
+Samples: 12000 | Time: 120.0s
+
+============================================================
+Window #1
+RMSSD: 10.98 ms | Change: N/A (first reading)
+Status: [~] YELLOW - GOOD - SLIGHT DECREASE
+============================================================
+
+============================================================
+Window #2
+RMSSD: 10.43 ms | Change: -0.54 ms
+Status: [~] YELLOW - GOOD - SLIGHT DECREASE
+============================================================
+
+============================================================
+Window #3
+RMSSD: 11.23 ms | Change: +0.79 ms
+Status: [✓] GREEN - EXCELLENT - HRV IMPROVING
+============================================================
+[DEBUG] Segment failed path length check
+[DEBUG] Bad segment detected in window (segment #9)
+
+[Window #4] Bad data detected (segment SQI). Skipping HRV.
+
+============================================================
+Window #5
+RMSSD: 12.16 ms | Change: +0.93 ms
+Status: [✓] GREEN - EXCELLENT - HRV IMPROVING
+============================================================
+
+============================================================
+Window #6
+RMSSD: 12.25 ms | Change: +0.09 ms
+Status: [✓] GREEN - EXCELLENT - HRV IMPROVING
+============================================================
+
+============================================================
+Window #7
+RMSSD: 202.55 ms | Change: +190.31 ms
+Status: [✓] GREEN - EXCELLENT - HRV IMPROVING
+============================================================
+[DEBUG] Segment failed sensor limit check
+[DEBUG] Bad segment detected in window (segment #9)
+
+[Window #8] Bad data detected (segment SQI). Skipping HRV.
+[DEBUG] Segment failed sensor limit check
+[DEBUG] Bad segment detected in window (segment #5)
+
+[Window #9] Bad data detected (segment SQI). Skipping HRV.
+[DEBUG] Segment failed sensor limit check
+[DEBUG] Bad segment detected in window (segment #2)
+
+[Window #10] Bad data detected (segment SQI). Skipping HRV.
+
+
+Playback complete!
+
+============================================================
+SESSION SUMMARY
+============================================================
+Total samples replayed: 12000
+Total HRV windows analyzed: 10
+Final RMSSD: 202.55 ms
+
+Status Distribution:
+  GREEN (Improving):        4 windows
+  YELLOW (Minor decrease):  2 windows
+  RED (Significant drop):   0 windows
+============================================================
+
+Done!
