@@ -21,6 +21,8 @@ The vagus nerve connects the brain and the heart and is an important part of the
 ### System Diagram
 ![System Diagram](Images/System2.png)
 
+Arduino Nano ESP32 with custom C++ firmware reads from an analog pulse sensor at 100 Hz and transmits PPG data over BLE. React Native (TypeScript) passes raw data to the backend server via FastAPI for Python-based (NumPY, SciPy) signal processing. React application receives processed data with HRV metrics to update user interface.
+
 ### Assembly
 ![Prototype Assemble](Images/Assembly.png)
 
